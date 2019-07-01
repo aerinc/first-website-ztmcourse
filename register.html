@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<!--use GET, not POST-->
+	<body style="background-color:#FFFFF0;">
+	<form method="GET">
+		<h1><font color="#CB4335">Want to learn more recipes? Sign up for our Newsletter!</font></h1>
+		<img src="http://www.quickmeme.com/img/3c/3c9f9db5663a78d5ab3aa40619ea94f155b10aeb817ee1fc9b12ae55d595dc8c.jpg" width="420" height="320"><br>
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email" required><br>
+		Birthday: <input type="date" name="birthday"><br>
+		Recipe Level: <br>
+		<input type="checkbox" name="easy" value="Easy"> Easy<br>
+		<input type="checkbox" name="medium" value="Medium"> Medium<br>
+		<input type="checkbox" name="hard" value="Hard">Hard<br>
+		Restrictions: <br>
+		<select name="restrictions">
+			<option value="vegetarian" name="vegetarian">Vegetarian</option>
+			<option value="vegan" name="vegan">Vegan</option> 
+			<option value="glutenfree">Gluten Free</option>
+		</select><br>
+		<input type="submit" value="Register!">
+		<input type="reset">
+	</form><br>
+	<a href="index.html">Go back</a>
+</body>
+</html>
+
